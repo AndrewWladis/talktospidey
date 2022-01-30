@@ -1,0 +1,21 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Prototype.ttf);
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+html {
+    font-family: myFirstFont;
+}
+
+h1 {
+    color: white;
+    font-family: myFirstFont;
+}
