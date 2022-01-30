@@ -15,7 +15,7 @@ let pizzatime = new Audio('audio/pizzatime.mp3');
 let tryingtodobetter = new Audio('audio/tryingtodobetter.mp3');
 
 const button = document.getElementById('button');
-const soundLocation = document.getElementById('embed_player');
+const buttonB = document.getElementById('buttonB');
 
 
 var recognition = new SpeechRecognition();
@@ -70,3 +70,4 @@ function response(i) {
 }
 
 button.addEventListener('click', speechRecord);
+buttonB.addEventListener('click', recognition.stop());
